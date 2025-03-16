@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">text</string>
+    <string name="person_name">textPersonName</string>
+    <string name="phone">phone</string>
+    <string name="number">number</string>
+    <string name="btn">Copy that</string>
+    <string name="email_addres">textEmailAddress</string>
+</resources>

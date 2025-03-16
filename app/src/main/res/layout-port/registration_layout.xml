@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:text="@string/app_name"
+        android:fontFamily="@font/phantom_muff"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:background="@color/fields"
+        android:layout_marginBottom="@dimen/cardview_compat_inset_shadow"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textPersonName"
+        android:text="@string/person_name"
+        android:fontFamily="@font/phantom_muff"
+        android:inputType="textPersonName"
+        android:layout_gravity="center"
+        android:background="@color/fields"
+        android:layout_marginBottom="@dimen/cardview_compat_inset_shadow"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone"
+        android:text="@string/phone"
+        android:inputType="phone"
+        android:layout_gravity="center"
+        android:background="@color/fields"
+        android:layout_marginBottom="@dimen/cardview_compat_inset_shadow"
+        android:fontFamily="@font/phantom_muff"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/number"
+        android:text="@string/number"
+        android:inputType="number"
+        android:layout_gravity="center"
+        android:background="@color/fields"
+        android:layout_marginBottom="@dimen/cardview_compat_inset_shadow"
+        android:fontFamily="@font/phantom_muff"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textPassword"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:background="@color/fields"
+        android:layout_marginBottom="@dimen/cardview_compat_inset_shadow"
+        android:fontFamily="@font/phantom_muff"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textEmailAddress"
+        android:text="@string/email_addres"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center"
+        android:background="@color/fields"
+        android:layout_marginBottom="@dimen/cardview_compat_inset_shadow"
+        android:fontFamily="@font/phantom_muff"
+        android:ems="10"
+        />
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
